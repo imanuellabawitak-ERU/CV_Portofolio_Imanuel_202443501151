@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Pribadi - Imanuel Laba Witak</title>
+
+    <link rel="stylesheet" href="Style-about.css">
+</head>
+<body>
+<!-- LOADING SCREEN -->
+<div id="loader" class="loader-screen">
+    <div class="loader-content">
+        <div class="loader-logo"><img src="file logo.jpg"></div>
+
+        <h1 class="loader-name">WITAK</h1>
+
+        <p class="loader-subtitle">
+            WELCOME TO THE SALTY SPITTON
+        </p>
+
+        <div class="loader-track">
+            <div class="loader-progress"></div>
+        </div>
+
+        <span class="loader-text">Preparing your Luckness...</span>
+    </div>
+</div>
+
+    <!-- TOMBOL SIDEBAR -->
+    <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Buka menu"
+        aria-expanded="false"
+        aria-controls="sidebar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-button-wide-fill" viewBox="0 0 16 16">
+  <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h13A1.5 1.5 0 0 0 16 3.5v-2A1.5 1.5 0 0 0 14.5 0zm1 2h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1m9.927.427A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"/>
+</svg>
+    </button>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+        <h2>Menu Profil</h2>
+        <a href="#profil">PROFILE</a>
+        <a href="#tentang">ABOUT ME</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#Project">MY PROJECT</a>
+        <a href="#kontak">CONTACT</a>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main>
+
+        <!-- SECTION 1: PROFILE -->
+        <section class="reveal" id="section-profil">
+            <img
+                src="foto gw.jpg"
+                class="Gambar1"
+                alt="Foto profil Imanuel"
+                width="300">
+
+            <h1 id="profil">PROFILE</h1>
+
+            <ul>
+                <li>Full name: Imanuel Laba Witak</li>
+                <li>Age: 26 years old</li>
+                <li>Place and date of birth: DKI Jakarta, 15-04-2000</li>
+                <li>Address: Jl. Gading Sengon, West Kelapa Gading, North Jakarta</li>
+                <li>Education: SMK, S1 TI <b>(ongoing)</b></li>
+                <li>Experience: Staff OPS / Koordinator Transport</li>
+            </ul>
+        </section>
+
+        <!-- SECTION 2: ABOUT ME -->
+        <section class="reveal" id="section-tentang">
+            <h2 id="tentang">ABOUT ME</h2>
+
+            <p>
+                Experienced Transportation Operations and Driver
+                Coordinator professional with more than 5 years of
+                experience in fleet operations, driver management, and
+                transportation services. Also has 2 years of experience
+                in warehouse administration and inventory management.
+                Able to work under pressure and support operational
+                efficiency to achieve company goals.
+            </p>
+        </section>
+
+        <!-- SECTION 3: EXPERIENCE -->
+        <section class="reveal" id="section-experience">
+            <h2 id="experience">EXPERIENCE</h2>
+
+            <ol>
+                <li>Admin Warehouse (CV. DEYURA)</li>
+                <ul>
+                    <li>Managed inbound and outbound warehouse operations handling approximately 10,000–20,000 packages.</li>
+                    <li>Monitored inbound and outbound shipment activities.</li>
+                    <li>Ensured package quantity and condition accuracy.</li>
+                    <li>Communicated with customers regarding shipment status.</li>
+                    <li>Prepared receipts, invoices, and warehouse documentation.</li>
+                    <li>Created daily, weekly, and monthly warehouse reports.</li>
+                </ul>
+
+                <li>Driver Coordinator (PT. Lestari Surya Gema Persada)</li>
+                <ul>
+                    <li>Coordinated more than 100 drivers and 40 operational vehicles.</li>
+                    <li>Managed driver scheduling and fleet deployment.</li>
+                    <li>Coordinated vehicle repairs and servicing.</li>
+                    <li>Supported driver training and development.</li>
+                    <li>Monitored driver performance, attendance, and safety compliance.</li>
+                    <li>Handled and resolved customer complaints.</li>
+                </ul>
+
+                <li>Operation Staff (PT. Hiba Utama)</li>
+                <ul>
+                    <li>Managed employee shuttle operations involving 200 active vehicles, 80 standby vehicles, and 220 drivers.</li>
+                    <li>Performed vehicle planning and driver allocation using TMS/BMS.</li>
+                    <li>Managed deployment of small vehicles, medium vehicles, and big buses.</li>
+                    <li>Allocated standby vehicles during breakdowns or maintenance.</li>
+                    <li>Coordinated with maintenance teams.</li>
+                    <li>Monitored fleet performance and operational readiness.</li>
+                    <li>Coordinated with departments and management.</li>
+                </ul>
+            </ol>
+        </section>
+
+        <!-- SECTION 4: MY PROJECT -->
+        <section class="reveal" id="section-project">
+            <h2 id="Project">MY PROJECT</h2>
+
+            <p>
+                Here are several projects I have managed to enhance
+                my skills in fleet and field operations.
+            </p>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <img
+                        src="IMG_20240530_115201_933.jpg"
+                        alt="Emergency Response and Fleet Accident Handling"
+                        class="project-media">
+
+                    <div class="project-info">
+                        <h3>Emergency Response &amp; Fleet Accident Handling Simulation</h3>
+                        <p>
+                            Conduct accident-handling simulations in the
+                            field in collaboration with Transjakarta safety officers.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <video controls class="project-media">
+                        <source src="VID_20260312_230413.mp4" type="video/mp4">
+                        Browser kamu tidak mendukung video.
+                    </video>
+
+                    <div class="project-info">
+                        <h3>Project Fleet Readiness Audit &amp; Preventive Maintenance</h3>
+                        <p>5 Minute Visual Inspection &amp; Testing.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img
+                        src="IMG_20240327_140943_739.jpg"
+                        alt="Quick Unit Maintenance Education"
+                        class="project-media">
+
+                    <div class="project-info">
+                        <h3>Quick Unit Maintenance Education</h3>
+                        <p>
+                            Demonstrates an efficient method for the
+                            maintenance of automatic door rails.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 5: CONTACT -->
+        <section class="reveal" id="section-kontak">
+		<center>
+            <h2 id="kontak">CONTACT</h2>
+            <!-- WhatsApp -->
+            <a
+                href="https://wa.me/6283805394875"
+                target="_blank"
+                rel="noopener noreferrer">
+                <<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 16 16">
+
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+        </svg>
+
+                WhatsApp
+            </a>
+
+            <!-- Instagram -->
+            <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 16 16">
+
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-2.388-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>
+                Instagram
+            </a>
+
+            <p>
+                <a href="index.html">Kembali</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="Script-about.js"></script>
+
+</body>
